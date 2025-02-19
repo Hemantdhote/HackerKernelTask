@@ -476,21 +476,22 @@ body {
   margin-left: 3vw;
   width: 75%;
   border: 1px solid rgb(244, 208, 208);
-  
+  padding: 0 1vw;
   border-radius: 1vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .pin input{
-  margin-left: 1vw;
+  margin-left: 0vw;
   padding: 1vw 1vw;
 }
 .btn{
   margin-left: 9vw;
   margin-top: 0.9vw;
   display: flex;
-  gap: 2vw;
+  gap: 1vw;
 }
 .btn button{
   padding: 0.3vw 0.7vw;
