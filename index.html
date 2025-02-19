@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+  <div id="main">
+    <div class="page1">
+      <div class="part1">
+        <img class="img1" src="./Projects Images/P1.jpg" alt="">
+        <div class="nav">
+          <div class="left">
+            <img class="img2" src="./Logo & Others/Logo.png" alt="">
+          </div>
+          <div class="right">
+            <h3>Projects</h3>
+            <h3>About</h3>
+            <h3>News</h3>
+            <h3>Services</h3>
+            <h3>Contact</h3>
+          </div>
+        </div>
+        <div class="three">
+          <div class="line"></div>
+          <div class="sharp">
+            <h1>Sharp & Beautiful <br> The Edge Building</h1>
+            <h5>Madrid, Spain</h5>
+          </div>
+          <div class="image">
+            <img src="./Projects Images/P1.jpg" alt="">
+          </div>
+          <div class="math">
+            <h4>1/5</h4>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="part2">
+        <div class="wrap">
+          <div class="commentFeature">
+
+            <div class="inp">
+              <div class="pin">
+                <input type="text" placeholder="Make a comment ">
+                <i class="ri-pushpin-line"></i>
+              </div>
+              <div class="btn">
+                <button class="btn3">Cancel</button>
+                <button class="btn2" disabled>Submit</button>
+              </div>
+            </div>
+            <div class="commentsContainer">
+            </div>
+          </div>
+
+
+
+
+          <div class="logo">
+            <i id="i1" class="ri-chat-4-line"></i>
+            <i id="i2" class="ri-code-s-slash-fill"></i>
+            <i id="i3" class="ri-braces-line"></i>
+          </div>
+        </div>
+
+
+        <div class="code">
+          <div id="inspector">
+            <div class="section">
+              <h3>Element: <span id="elementName">None</span></h3>
+            </div>
+            <div class="section">
+              <h3>Position</h3>
+              <p>X: <span id="posX">0</span>px | Y: <span id="posY">0</span>px</p>
+            </div>
+            <div class="section">
+              <h3>Size</h3>
+              <p>Width: <span id="width">0</span>px | Height: <span id="height">0</span>px</p>
+            </div>
+            <div class="section">
+              <h3>Color</h3>
+              <p>Background: <span id="bgColor">N/A</span></p>
+            </div>
+            <div class="section">
+              <h3>Opacity</h3>
+              <p><span id="opacity">1</span></p>
+            </div>
+            <div class="section">
+              <h3>CSS <span class="copy-btn" onclick="copyCSS()">Select to copy</span></h3>
+              <pre id="cssProperties"></pre>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="desingLogo">
+          <div class="XD">
+            <img src="./icons8-code-file-32.png" alt="">
+            <h3>No design variables available.</h3>
+            <p>When designers add colors and character styles to the assets panel in XD, they will appear here as design
+              variables for you to use. <span> Learn more... </span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+    <div class="page2">
+      <div class="about">
+        <h3>About</h3>
+      </div>
+      <div class="design">
+        <img src="./Logo & Others/Design White.png" alt="">
+      </div>
+      <div class="pera">
+        <p>Architecture is the learned game, correct and magnificent, of forms assembled in the light. So keeping this
+          in mind we started with our work. We are a team of 5 Architects with a clean and white vision.</p>
+        <h5>Read More+</h5>
+      </div>
+
+      <div class="line2"></div>
+    </div>
+    <div class="page3">
+      <div class="news">
+        <h3>News</h3>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="./News/With Box/N1.png" alt="">
+          <p>White Architectures work was mentioned as best in one of the spacious interior as well clean design in UNI
+            - COS Magazine of the year 2020.</p>
+          <div class="cardDate">
+            <div class="dateLine"></div>
+            <h4>20 Jan 2020</h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./News/With Box/N2.png" alt="">
+          <p>D&D Magazine 2020 added an article on our work of "Space and Light" saying about the design trend that we
+            are setting out there.</p>
+          <div class="cardDate">
+            <div class="dateLine"></div>
+            <h4>25 Jan 2020</h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./News/With Box/N3.png" alt="">
+          <p>Architecture & Design 2020 added article on our Edge Building and mentioned it as most beautiful
+            Architectural work of Jan 2020.</p>
+          <div class="cardDate">
+            <div class="dateLine"></div>
+            <h4>30 Jan 2020</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="page4">
+      <div class="services">
+        <h3>Services</h3>
+      </div>
+      <div class="guide">
+        <h4>Design</h4>
+        <h4>Direction</h4>
+        <h4>Guide</h4>
+
+        <h5>Read More+</h5>
+      </div>
+    </div>
+    <div class="page5">
+      <div class="contact">
+        <h3>Contact</h3>
+      </div>
+
+      <div class="contactPart">
+        <div class="box1">
+          <img src="./Contact Us Icons/CU1.png" alt="">
+          <h3>White Architectures 2787 Street, Fremont California 94538</h3>
+        </div>
+        <div class="box2">
+          <img src="./Contact Us Icons/CU2.png" alt="">
+          <h3>wagetintouch@whitearch.com</h3>
+        </div>
+        <div class="box3">
+          <img src="./Contact Us Icons/CU3.png" alt="">
+          <h3>510-979-9360</h3>
+        </div>
+      </div>
+
+    </div>
+    <div class="page6">
+      <div class="twit">
+        <h1>White Architectures</h1>
+        <div class="ins-twit">
+          <h3>Instagram</h3>
+          <h3>Twitter</h3>
+        </div>
+      </div>
+      <div class="join">
+        <div class="large"></div>
+        <div class="skill">
+          <h3>skillmix2021</h3>
+          <h3>Top</h3>
+          <h3>skillmix2021@gmail.com</h3>
+        </div>
+        <div class="small"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
